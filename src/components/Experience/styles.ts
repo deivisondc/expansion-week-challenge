@@ -7,6 +7,7 @@ interface ContainerProps {
 export const Container = styled.div<ContainerProps>`
   display: flex;
   flex-direction: column;
+  width: 100%;
 
   transition: all 0.2s;
 `;
@@ -14,6 +15,7 @@ export const Container = styled.div<ContainerProps>`
 export const ContentContainer = styled.div`
   display: flex;
   margin: 25px 0;
+  padding: 0 20px;
 `;
 
 export const Logo = styled.img`
@@ -49,6 +51,13 @@ export const SeeMore = styled.button`
   background: none;
   border: 0;
   font-size: 14px;
-  padding-top: 10px;
+  font-weight: bold;
+  padding: 10px;
   border-top: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+
+  &:hover {
+    background: #1a29ad;
+    color: #fff;
+  }
 `;

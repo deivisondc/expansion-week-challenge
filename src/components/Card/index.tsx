@@ -3,32 +3,38 @@ import PropTypes from 'prop-types';
 
 import Title from '../Title';
 
-import { Container } from './styles';
+import { Container, TitleContainer } from './styles';
 
 interface CardInterface {
-  centered?: boolean;
   title?: string;
+  icon?: ReactNode;
   children?: ReactNode;
 }
 
-const Card: React.FC<CardInterface> = ({ centered, title, children }) => {
+const Card: React.FC<CardInterface> = ({ title, icon, children }) => {
   return (
-    <Container centered={centered}>
-      {title && <Title>{title}</Title>}
+    <Container>
+      {title && (
+        <Title>
+          <TitleContainer>
+            {icon} {title}
+          </TitleContainer>
+        </Title>
+      )}
       {children}
     </Container>
   );
 };
 
 Card.propTypes = {
-  centered: PropTypes.bool,
   title: PropTypes.string,
+  icon: PropTypes.node,
   children: PropTypes.node.isRequired,
 };
 
 Card.defaultProps = {
-  centered: false,
   title: '',
+  icon: undefined,
 };
 
 export default Card;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   margin: 25px 0;
+  padding: 0 20px;
 `;
 
 export const ContentContainer = styled.div`
@@ -45,6 +46,13 @@ export const SeeMore = styled.button`
   background: none;
   border: 0;
   font-size: 14px;
-  padding-top: 10px;
+  font-weight: bold;
+  padding: 10px;
   border-top: 1px solid #ddd;
+  border-radius: 0 0 8px 8px;
+
+  &:hover {
+    background: #1a29ad;
+    color: #fff;
+  }
 `;
