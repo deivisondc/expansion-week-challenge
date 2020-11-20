@@ -13,3 +13,5 @@ Clone o projeto, vá até o diretório execute o comando `yarn` para instalar as
 ## Pontos a melhorar
 - Criar variáveis no css ou temas, para não ficar setando as cores individualmente
 - Melhorar a usabilidade de alguns componentes acabaram ficando confusos.
+- Melhorar os textos
+- Dar sentido aos elementos de gamificação no card do perfil
