@@ -6,12 +6,24 @@ import { Link } from './styles';
 interface LinkProps {
   to: string;
   flex?: boolean;
+  flexColumn?: boolean;
   children: ReactNode;
 }
 
-const LinkComponent: React.FC<LinkProps> = ({ to, flex, children }) => {
+const LinkComponent: React.FC<LinkProps> = ({
+  to,
+  flex,
+  flexColumn,
+  children,
+}) => {
   return (
-    <Link flex={flex} href={to} target="_blank" rel="noreferrer">
+    <Link
+      flex={flex}
+      flexColumn={flexColumn}
+      href={to}
+      target="_blank"
+      rel="noreferrer"
+    >
       {children}
     </Link>
   );
@@ -20,11 +32,13 @@ const LinkComponent: React.FC<LinkProps> = ({ to, flex, children }) => {
 LinkComponent.propTypes = {
   to: PropTypes.string.isRequired,
   flex: PropTypes.bool,
+  flexColumn: PropTypes.bool,
   children: PropTypes.node.isRequired,
 };
 
 LinkComponent.defaultProps = {
   flex: false,
+  flexColumn: false,
 };
 
 export default LinkComponent;

@@ -52,9 +52,4 @@ export const SeeMore = styled.button`
   padding: 10px;
   border-top: 1px solid #ddd;
   border-radius: 0 0 8px 8px;
-
-  &:hover {
-    background: #1a29ad;
-    color: #fff;
-  }
 `;

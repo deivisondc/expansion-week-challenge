@@ -27,6 +27,23 @@ export const Container = styled.div`
     & > h2 > div > svg * {
       color: #1a29ad;
     }
+
+    & * {
+      ::-webkit-scrollbar-thumb {
+        background: #1a29ad;
+      }
+    }
+
+    & button {
+      border-top: 1px solid #1a29ad;
+      color: #1a29ad;
+      transition: all 0.2s;
+
+      &:hover {
+        background: #1a29ad;
+        color: #fff;
+      }
+    }
   }
 `;
 

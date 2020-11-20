@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 
 interface LinkProps {
   flex?: boolean;
+  flexColumn?: boolean;
 }
 
 export const Link = styled.a<LinkProps>`
@@ -14,12 +15,21 @@ export const Link = styled.a<LinkProps>`
       align-items: center;
     `}
 
+  ${props =>
+    props.flexColumn &&
+    css`
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    `}
+
   span {
     display: block;
   }
 
   &:hover {
-    h5 {
+    h3 {
       text-decoration: underline;
     }
   }

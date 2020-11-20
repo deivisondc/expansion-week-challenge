@@ -24,7 +24,7 @@ export const Avatar = styled.img`
   margin-right: 10px;
 `;
 
-export const Name = styled.h5`
+export const Name = styled.h3`
   font-size: 15px;
   font-weight: bold;
   margin-right: 10px;
@@ -72,14 +72,14 @@ export const ConnectButton = styled.button<ConnectButtonProps>`
     css`
       cursor: initial;
       color: #777;
-      border: 2px solid #777;
+      border: 2px solid #777 !important;
 
       svg * {
         color: #777;
       }
 
       &:hover {
-        background-color: #ddd;
+        background-color: #ddd !important;
         color: #777;
 
         svg * {
