@@ -1,0 +1,23 @@
+[
+  {
+    "avatar": "https://pbs.twimg.com/profile_images/1291682473592659968/sEorc6oh.jpg",
+    "link": "https://rocketseat.com.br/",
+    "company": "Rocketseat",
+    "duration": "2017 até agora",
+    "description": "Um dos lugares onde eu mais atuo hoje em dia. Essa empresa está se atualizando constantemente, trazendo novos desafios, e oferecendo aos alunos uma experiência e oportunidade de ir para o próximo nível. Isso requer aprendizado contínuo e muita dedicação da minha parte para deixar todos à par com a evolução tecnológica que vem acontecendo de forma muito rápida."
+  },
+  {
+    "avatar": "https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg",
+    "link": "https://www.spacex.com/",
+    "company": "SpaceX",
+    "duration": "2002 até agora",
+    "description": "Atuei em dupla com minha parceira Resiliência desde os anos 2000, inovando o conceito de vôo espacial comercial. Fomos criticadas por todos os lados, mas com a ajuda da Resiliência, não desistimos e pude detectar o que era preciso mudar nos processos, nas tecnologias e em vários outros aspectos, e após muitas falhas durante o caminho, o resultado chegou e mudamos a história da humanidade."
+  },
+  {
+    "avatar": "https://www.sunoresearch.com.br/wp-content/uploads/2019/04/lei-jun1-1024x1024.jpg",
+    "link": "https://www.xiaomii.com.br/",
+    "company": "Xiaomi",
+    "duration": "2020 até agora",
+    "description": "Acredito que meu maior feito na Xiaomi foi em meados de 2016, quando estávamos perdendo uma parcela do mercado chinês no ramo de smartphones. Nesse momento meu papel foi essencial em mostrar para a empresa que era possível diversificar a marca. A empresa concordou com minhas ideias e metodologias e voltamos forte no mercado chinês e mundial, liderando em diversos ramos diferentes."
+  }
+]

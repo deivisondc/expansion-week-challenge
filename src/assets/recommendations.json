@@ -1,20 +1,30 @@
 [
   {
-    "avatar": "https://www.biography.com/.image/t_share/MTY2MzU3Nzk2OTM2MjMwNTkx/elon_musk_royal_society.jpg",
-    "from": "Elon Musk",
-    "occupation": "CEO na Tesla e SpaceX",
-    "description": "Nossa experiência com a dupla Adaptabilidade e Resiliência data dos anos 2000, quando inovamos o vôo espacial comercial com a SpaceX. Fomos criticados por todos os lados, mas com a ajuda da Resiliência, não desistimos e com a ajuda da Adaptabilidade, detectamos o que era preciso mudar, e após muitas falhas durante o caminho, o resultado chegou e mudamos a história da humanidade graças à essa dupla."
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQFyuLwnyMo25Q/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=qMCq1e7hyDdSFMkPVUQ_6gw_ice2X7eMjSBaVK7Hni0",
+    "link": "https://www.linkedin.com/in/renatorfr/",
+    "from": "Renato Freire",
+    "occupation": "Software Developer na Mirego",
+    "description": "Sempre tive ajuda da Aptabilidade durante as transições da minha carreira na área de tecnologia. Comecei com manutenção, fiz a transição para a área de desenvolvimento enquanto estava na faculdade, começando com a linguagem PHP, e por conta da Adaptabilidade tive a oportunidade de trabalhar com as linguagens C#, Java, Ruby on Rails, Python, NodeJS, Typescript, entre outros. Hoje trabalho em uma empresa no Canadá e com certeza todas essas mudanças tiveram sua contribuição nessa conquista."
   },
   {
-    "avatar": "https://www.sunoresearch.com.br/wp-content/uploads/2019/04/lei-jun1-1024x1024.jpg",
-    "from": "Lei Jun",
-    "occupation": "Co-fundador da Xiaomi",
-    "description": "Em meados de 2016, estávamos perdendo uma parcela do mercado chinês no ramo de smartphones. Foi então que conhecemos a Adaptabilidade e ela nos colocou de volta no mercado chinês e mundial quando nos mostrou que era possível diversificar a marca. Nos adaptamos e hoje lideramos em diversos ramos."
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQG7v1FVfBWz-A/profile-displayphoto-shrink_800_800/0?e=1611187200&v=beta&t=OXP8Xhlf-B1OVxIQJl4DOSpXFgW8OZgDlGnB9b4lbBU",
+    "link": "https://www.linkedin.com/in/dorlyneto/",
+    "from": "Dorly Neto",
+    "occupation": "Mentor na SpaceSquad dentro da Rocketseat",
+    "description": "Querendo ser cada vez mais produtivo, e sabendo o quanto de distrações temos no dia-a-dia, a Adaptabilidade me ajudou a eliminar as distrações controláveis e me adaptar perante as distrações incontroláveis. O resultado disso me facilitou alcançar o foco e por consequência a produtividade."
   },
   {
     "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQF_Sagxzmiv2w/profile-displayphoto-shrink_800_800/0?e=1611187200&v=beta&t=EwBSvJYRHzz1IOlch0HCxgj1DFsz7DUHNbe3sDgcN20",
+    "link": "https://www.linkedin.com/in/thiagopederzollimdasilva/",
     "from": "Thiago Pederzolli",
     "occupation": "Estudante e Mentor na SpaceSquad dentro da Rocketseat",
     "description": "A adaptabilidade me ajudou a sair da zona de conforto, lidar com o desconforto e transformá-lo em algo confortável. Me ensinou que não tem como ser literalmente a mesma pessoa em todos os momentos e que é necessário se adaptar para cada momento da vida. Graças a esses ensinamentos tomei a decisão de mudar um pouquinho meus planos durante a pandemia, saindo de mestrado em filosofia para um ser mentor em curso de formação em programação."
+  },
+  {
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQGI834k22G3QQ/profile-displayphoto-shrink_800_800/0?e=1611187200&v=beta&t=pRpo5VMOR0EuSK01Uu1AO3-AEE663HxRXjMgmg7533Y",
+    "link": "https://www.linkedin.com/in/igor-arnaldo-de-alencar/",
+    "from": "Igor Arnaldo de Alencar",
+    "occupation": "Pesquisador | Gamificação | Mestrado | Universidade Federal Fluminense",
+    "description": "A gameficação nunca é um quadrado perfeito, precisa adaptar as novas gerações, as necessidades diferentes, e foi nesse ponto que a Adaptabilidade me mostrou os caminhos para atingir esses objetivos a partir da leitura, estudos e estar de cabeça aberta para as mudanças constantes."
   }
 ]
