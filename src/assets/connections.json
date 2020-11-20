@@ -1,0 +1,32 @@
+[
+  {
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQEFVCRAPFpbUA/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=bGb8R_RegJceniYAvPKqGy1XqN49zP74otBOooRaNrA",
+    "link": "https://www.linkedin.com/in/diego-schell-fernandes/",
+    "name": "Diego Fernandes",
+    "occupation": "CTO na Rocketseat"
+  },
+  {
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQGIUOHfzExl3g/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=ZrjQ9vruy_T9gu8b2KdaWcMtbZJGrAVdwpbzAhBO0Mk",
+    "link": "https://www.linkedin.com/in/luizancgarcia/",
+    "name": "Luiza Costa",
+    "occupation": "Mãezona na Rocketseat"
+  },
+  {
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQE7r-g3LGdCJg/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=YNNrbCSzK5hNgQB2KLlSItkq1wfxcJsCQfDRIzoRjjo",
+    "link": "https://www.linkedin.com/in/filipedeschamps/",
+    "name": "Filipe Deschamps",
+    "occupation": "Programador"
+  },
+  {
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4E03AQGQaJzCkzkUfg/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=ZqOuZj8m4P1NXaiJeCdUCcWftVb2n9A97lRaoAxVQDs",
+    "link": "https://www.linkedin.com/in/rodrigoterron/",
+    "name": "Rodrigo Terron",
+    "occupation": "COO na Rocketseat"
+  },
+  {
+    "avatar": "https://media-exp1.licdn.com/dms/image/C4D03AQH_TppqbqaUVg/profile-displayphoto-shrink_200_200/0?e=1611187200&v=beta&t=iI02a-QgzJvfDu4bNXw5EKGEcanueV8Ajw2ygf-Zz68",
+    "link": "https://www.linkedin.com/in/abraaosena/",
+    "name": "Abraão Sena",
+    "occupation": "COO na Shawee"
+  }
+]
