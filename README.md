@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+# Desafio ExpansionWeek
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Proposta
+Este desafio foi proposto no dia 17/11/2020 após uma live a noite desafiando o aluno a criar um site estático utilizando como temática do site alguma soft skill que o aluno julga importante. Esse desafio deve ser entregue até o dia 20/11/2020 às 10h.
 
-## Available Scripts
+## Entrega
+A ideia que quis entregar era de personificar a soft skill **adaptabilidade** por meio de uma página baseada em um perfil do LinkedIn. A princípio a ideia era fazer uma breve descrição e utilizar o espaço de recomendações para escrever alguma frase que os participantes da ExpansionWeek disseram e que tinham a ver com adaptabilidade, enquanto que na sessão de experiência eu queria colocar algumas empresas que é evidente a adaptabilidade. Porém, devido ao tempo e ao cansaço do dia, acabei não conseguindo cumprir com isso 100%.
+Àqueles que possuem seus perfis aqui expostos e que desejam que seja retirado, por favor entrar em contato comigo.
 
-In the project directory, you can run:
+## Execução
+Clone o projeto, vá até o diretório execute o comando `yarn` para instalar as dependências e então `yarn start` para inicializar.
 
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Pontos a melhorar
+- Criar variáveis no css ou temas, para não ficar setando as cores individualmente
+- Melhorar a usabilidade de alguns componentes acabaram ficando confusos.
