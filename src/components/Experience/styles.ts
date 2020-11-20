@@ -16,6 +16,12 @@ export const ContentContainer = styled.div`
   display: flex;
   margin: 25px 0;
   padding: 0 20px;
+
+  &:hover {
+    h3 {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const Logo = styled.img`

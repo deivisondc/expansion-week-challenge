@@ -1,6 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { FaUserTie } from 'react-icons/fa';
+
+import experiences from '../../assets/experiences.json';
 
 import Card from '../Card';
+import Link from '../Link';
 
 import {
   Container,
@@ -13,66 +17,47 @@ import {
   SeeMore,
 } from './styles';
 
+interface Experience {
+  avatar: string;
+  link: string;
+  company: string;
+  duration: string;
+  description: string;
+}
+
 const Experience: React.FC = () => {
   const [collapsed, setCollapsed] = useState(false);
+  const [filteredExperiences, setFilteredExperiences] = useState<Experience[]>(
+    [],
+  );
+
+  useEffect(() => {
+    if (collapsed) {
+      setFilteredExperiences(experiences);
+    } else {
+      setFilteredExperiences([experiences[0]]);
+    }
+  }, [collapsed]);
 
   return (
-    <Card title="Experiências">
+    <Card title="Experiências" icon={<FaUserTie />}>
       <Container collapsed={collapsed}>
-        <ContentContainer>
-          <Logo src="https://avatars2.githubusercontent.com/u/25139090?s=460&u=d313c1479cbc81452d740a9fc73f37fd0f9e7ac4&v=4" />
+        {filteredExperiences.map(experience => (
+          <ContentContainer>
+            <Link to={experience.link}>
+              <Logo src={experience.avatar} />
+            </Link>
 
-          <Content>
-            <Title>SpaceX</Title>
-            <Period>Outubro 2020 até agora</Period>
+            <Content>
+              <Link to={experience.link}>
+                <Title>{experience.company}</Title>
+                <Period>{experience.duration}</Period>
+              </Link>
 
-            <Description>
-              Participei do desenvolvimento e evolução do sistema ERP com a
-              linguagem Java (Java EE / JSP), utilizando como base de dados
-              Oracle e PostgreSQL sobre os servidores de aplicação JBoss e
-              Glassfish e utilizando sistemas de controle de versões como
-              Subversion e Mercurial com o auxílio de metodologia ágeis como o
-              SCRUM e Kanban.
-            </Description>
-          </Content>
-        </ContentContainer>
-
-        {collapsed && (
-          <>
-            <ContentContainer>
-              <Logo src="https://avatars2.githubusercontent.com/u/25139090?s=460&u=d313c1479cbc81452d740a9fc73f37fd0f9e7ac4&v=4" />
-              <Content>
-                <Title>SpaceX</Title>
-                <Period>Outubro 2020 até agora</Period>
-
-                <Description>
-                  Participei do desenvolvimento e evolução do sistema ERP com a
-                  linguagem Java (Java EE / JSP), utilizando como base de dados
-                  Oracle e PostgreSQL sobre os servidores de aplicação JBoss e
-                  Glassfish e utilizando sistemas de controle de versões como
-                  Subversion e Mercurial com o auxílio de metodologia ágeis como
-                  o SCRUM e Kanban.
-                </Description>
-              </Content>
-            </ContentContainer>
-            <ContentContainer>
-              <Logo src="https://avatars2.githubusercontent.com/u/25139090?s=460&u=d313c1479cbc81452d740a9fc73f37fd0f9e7ac4&v=4" />
-              <Content>
-                <Title>SpaceX</Title>
-                <Period>Outubro 2020 até agora</Period>
-
-                <Description>
-                  Participei do desenvolvimento e evolução do sistema ERP com a
-                  linguagem Java (Java EE / JSP), utilizando como base de dados
-                  Oracle e PostgreSQL sobre os servidores de aplicação JBoss e
-                  Glassfish e utilizando sistemas de controle de versões como
-                  Subversion e Mercurial com o auxílio de metodologia ágeis como
-                  o SCRUM e Kanban.
-                </Description>
-              </Content>
-            </ContentContainer>
-          </>
-        )}
+              <Description>{experience.description}</Description>
+            </Content>
+          </ContentContainer>
+        ))}
 
         <SeeMore onClick={() => setCollapsed(!collapsed)}>
           Ver {collapsed ? 'menos' : 'mais'}...

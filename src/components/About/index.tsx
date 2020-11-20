@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiBookmark } from 'react-icons/fi';
 
 import Card from '../Card';
 
@@ -6,7 +7,7 @@ import { Container, Content } from './styles';
 
 const About: React.FC = () => {
   return (
-    <Card title="Sobre">
+    <Card title="Sobre" icon={<FiBookmark />}>
       <Container>
         <Content>
           Sou a capacidade que um indivíduo tem de se adaptar, de acordo com as

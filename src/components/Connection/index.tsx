@@ -1,4 +1,5 @@
 import React from 'react';
+import { FiLink } from 'react-icons/fi';
 
 import Card from '../Card';
 
@@ -12,7 +13,7 @@ import {
 
 const Connection: React.FC = () => {
   return (
-    <Card title="Conexões">
+    <Card title="Conexões" icon={<FiLink />}>
       <Container>
         <CollapsedContainer>
           <ImageGroup>

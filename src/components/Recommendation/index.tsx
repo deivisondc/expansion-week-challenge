@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import { FiStar } from 'react-icons/fi';
 
 import Card from '../Card';
+import Link from '../Link';
 
 import recommendations from '../../assets/recommendations.json';
 
 import {
   Container,
-  ContentContainer,
   Avatar,
   Details,
   Title,
@@ -17,6 +18,7 @@ import {
 
 interface Recommendation {
   avatar: string;
+  link: string;
   from: string;
   occupation: string;
   description: string;
@@ -37,20 +39,22 @@ const Recommendation: React.FC = () => {
   }, [collapsed]);
 
   return (
-    <Card title="Recomendações">
+    <Card title="Recomendações" icon={<FiStar />}>
       {filteredRecommendations.map(recommendation => (
-        <ContentContainer key={recommendation.from}>
-          <Container>
+        <Container key={recommendation.from}>
+          <Link to={recommendation.link}>
             <Avatar src={recommendation.avatar} />
+          </Link>
 
-            <Details>
+          <Details>
+            <Link to={recommendation.link}>
               <Title>{recommendation.from}</Title>
               <Period>{recommendation.occupation}</Period>
-            </Details>
+            </Link>
+          </Details>
 
-            <Content>{recommendation.description}</Content>
-          </Container>
-        </ContentContainer>
+          <Content>{recommendation.description}</Content>
+        </Container>
       ))}
 
       <SeeMore onClick={() => setCollapsed(!collapsed)}>

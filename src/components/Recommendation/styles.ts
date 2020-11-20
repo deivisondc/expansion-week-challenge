@@ -6,11 +6,6 @@ export const Container = styled.div`
   padding: 0 20px;
 `;
 
-export const ContentContainer = styled.div`
-  display: flex;
-  margin: 25px 0;
-`;
-
 export const Avatar = styled.img`
   width: 60px;
   height: 60px;
@@ -21,13 +16,19 @@ export const Avatar = styled.img`
 export const Details = styled.div`
   display: flex;
   flex-direction: column;
+  width: 130px;
 
   margin-left: 20px;
+
+  &:hover {
+    h3 {
+      text-decoration: underline;
+    }
+  }
 `;
 
 export const Title = styled.h3`
   font-size: 18px;
-  width: 120px;
 `;
 
 export const Period = styled.span`
@@ -39,6 +40,7 @@ export const Period = styled.span`
 export const Content = styled.p`
   font-size: 15px;
   margin-left: 20px;
+  flex: 1;
 `;
 
 export const SeeMore = styled.button`
